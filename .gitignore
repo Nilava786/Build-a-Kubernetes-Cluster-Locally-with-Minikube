@@ -1,0 +1,22 @@
+# Ignore editor settings
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore node_modules if you happen to use Node.js tooling
+node_modules/
+
+# Ignore backup or temp files
+*~
+*.swp
+*.swo
+
+# Ignore minikube files if accidentally copied
+minikube/
+.kube/
